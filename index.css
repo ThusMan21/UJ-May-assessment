@@ -2,7 +2,16 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+.user img {
+  display: block;
+  margin: 0 auto;
 }
 .user {
   font-family: 'Roboto', Arial, sans-serif;
@@ -54,6 +63,10 @@ body {
   margin-bottom: 15px;
 }
 
+.education img {
+  float: center;
+  margin-right: 20px;
+}
 
 .foreignLanguage {
   font-family: Arial, sans-serif;
@@ -92,3 +105,20 @@ body {
 .favouriteSubjects p:last-child {
   margin-bottom: 0;
 }
+/
+@media screen and (min-width: 768px) {
+  .user {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .borders {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 800px;
+  }

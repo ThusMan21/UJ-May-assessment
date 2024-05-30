@@ -1,13 +1,13 @@
 {
     "user" : {
         "fullName" : "Mothusi Molelekeng",
-        "photo" : "image1.jpeg",
+        "photo" : "./image1.jpeg",
         "phone" : "0681093351",
         "email" : "mothusimolelekeng21@mail.com"
     },
     "education" : {
         "institutionName" : "University Of Free State",
-        "photo" : "UFS-Bloemfontein-Campus-Main-Gate.jpeg",
+        "photo" : "./UFS-Bloemfontein-Campus-Main-Gate.jpeg",
         "description" : "A Bachelor of Science in Environmental Science and Geography combines the study of the Earth's systems and human-environment interactions. Students explore topics like climate, ecology, and geospatial analysis. They learn to address environmental challenges and pursue careers in areas like conservation, urban planning, and research."
     },
     "foreignLanguage" : {
