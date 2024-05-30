@@ -1,38 +1,38 @@
 {
     "user" : {
-        "fullName" : "",
-        "photo" : "",
-        "phone" : "",
-        "email" : ""
+        "fullName" : "Mothusi Molelekeng",
+        "photo" : "image1.jpeg",
+        "phone" : "0681093351",
+        "email" : "mothusimolelekeng21@mail.com"
     },
     "education" : {
-        "institutionName" : "",
-        "photo" : "",
-        "description" : ""
+        "institutionName" : "University Of Free State",
+        "photo" : "UFS-Bloemfontein-Campus-Main-Gate.jpeg",
+        "description" : "A Bachelor of Science in Environmental Science and Geography combines the study of the Earth's systems and human-environment interactions. Students explore topics like climate, ecology, and geospatial analysis. They learn to address environmental challenges and pursue careers in areas like conservation, urban planning, and research."
     },
     "foreignLanguage" : {
-        "language" : "",
+        "language" : "French",
         "phrases" : [{
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
+            "englishPhrase" : "Hello",
+            "foreignLanguage" : "Bonjour"
         },
         {
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
+            "englishPhrase" : "Thank You",
+            "foreignLanguage" : "Merci"
         }]
     },
     "favouriteSubjects" : [
         {
-            "name" : "",
-            "description" : ""
+            "name" : "Full Stack Web Development for 4IR",
+            "description" : "Full stack web development for a 4IR (Fourth Industrial Revolution) module involves creating both the frontend and backend components of a web application using modern technologies and frameworks. This includes designing the user interface (UI), implementing client-side functionality with languages like HTML, CSS, and JavaScript, as well as building server-side logic using frameworks like Node.js, Django, or Flask. Additionally, it may involve integrating databases, APIs, and other third-party services to create a fully functional and responsive web application capable of meeting the demands of the Fourth Industrial Revolution, which emphasizes automation, connectivity, and data-driven decision-making"
         },
         {
-            "name" : "",
-            "description" : ""
+            "name" : "Engineering Business Systems for 4ir",
+            "description" : "Engineering Business Systems for the Fourth Industrial Revolution (4IR) module focuses on integrating engineering principles with advanced technologies characteristic of the Fourth Industrial Revolution. It examines how businesses utilize emerging technologies like AI, IoT, blockchain, and automation to optimize processes, enhance productivity, and create innovative products and services. The module emphasizes the synergy between engineering practices and digital solutions to adapt to the evolving industrial landscape and drive sustainable growth in the 4IR era."
         },
         {
-            "name" : "",
-            "description" : ""
+            "name" : "Agile Rapid Skills Acquisition",
+            "description" : "The Agile Rapid Skills Acquisition (ARSA) module is a streamlined framework for quickly learning new skills, inspired by Agile methodologies. It emphasizes iterative, adaptable learning cycles, frequent feedback, and collaboration. ARSA prioritizes hands-on experience and practical application to accelerate skill development efficiently."
         }
     ]
 }

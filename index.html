@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mothusi Molelekng CV</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+    <header >
+    <div class="user" >
+     <h1>{{user.fullName}}</h1>
+    <p> <STrong>Phone</STrong>:{{user.phone}} | <STrong>Email</STrong> : {{user.email}}</p> 
+    <img src ="{{user.photo}}" width="250px"  >
+</div>
+<div class="education" class="borders">
+    <h1>Education</h1>
+    <img src="{{education.photo}}" width="400px">
+    <h2>{{education.institutionName}}</h2>
+    <p class="col-6">{{education.description}}</p>
+</div>
+<div class="foreignLanguage">
+    <h1 >Foreign Language </h1>
+    <h2>{{foreignLanguage.language}}</h2>
+    {{#each foreignLanguage.phrases}}
+    <p>Foreign Language : {{this.foreignLanguage}}</p>
+    <p>English phrases : {{this.englishPhrase}}</p>
+    {{/each}}
+</div>
+<div class="favouriteSubjects" >
+    <h1 >favouriteSubjects</h1>
+    {{#each favouriteSubjects}}
+    <p >
+     <strong>{{this.name}}</strong>   <br> {{this.description}} 
+    </p>
+    {{/each}}
+</div>
+</header>
+    
 </body>
 </html>
